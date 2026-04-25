@@ -1,0 +1,24 @@
+{
+  "name": "curlingtimer",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/katestrophic/curlingtimer#readme",
+  "bugs": {
+    "url": "https://github.com/katestrophic/curlingtimer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katestrophic/curlingtimer.git"
+  },
+  "license": "ISC",
+  "author": "katestrophic",
+  "type": "commonjs",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^41.3.0"
+  }
+}

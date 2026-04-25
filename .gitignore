@@ -1,33 +1,44 @@
-
-
-# PROJECT SPECIFIC -------------- |
-# --- Depedencies and Modules     |
+# === Depedencies and Modules
 node_modules/
 
-# --- Build Output                |
+
+# === Build Output
+.cache/
 build/
 dist/
+temp/
+tmp/
 
-# --- Logs                        |
+
+# === Logs
 logs
 *.log
 
-# --- Private                     |
+
+# === Testing
+.nyc_output/
+coverage/
+
+
+# === Environment
 .env
+.env.*
 
 
-# IDE SPECIFIC ------------------ |
-# --- IntelleJ Idea               |
-.idea/
-
-# --- Visual Studio Code          |
-.vscode
+# === Program Specific
+*.tsbuildinfo
 
 
-# DEVICE SPECIFIC --------------- |
+# === IDE Specific
+.vscode/
+
+
+# === Device Specific
+Desktop.ini
 .DS_Store
 Thumbs.db
+*~
 
 
-# EXCEPTIONS -------------------- |
-!src/
+# === Exceptions
+

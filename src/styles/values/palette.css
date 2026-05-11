@@ -1,0 +1,17 @@
+/* Colour Options */
+:root{
+  --BLK-00: #000000;
+  --GRY-12: #121212;
+  --GRY-1E: #1E1E1E;
+  --GRY-30: #303030;
+  --GRY-DE: #DEDEDE;
+  --WHT-FF: #FFFFFF;
+
+  --RED: #E52E2E;
+  --ORN: #F38E30;
+  --YLW: #f1cf52;
+  --GRN: #30F37B;
+  --BLU: #2E87E5;
+  --PRP: #5447B3;
+  --PNK: #ef7bbf;
+}

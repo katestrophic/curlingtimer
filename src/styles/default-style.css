@@ -1,0 +1,44 @@
+@import "./values/theme.css";
+
+/* GENERAL */
+* {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: var(--colour-bkgd);
+  color: var(--colour-text);
+
+  padding: var(--perc-none);
+  margin: var(--perc-none);
+  border: 1px solid var(--WHT-FF);
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 30px auto 120px;
+  grid-template-columns: 180px auto;
+  grid-template-areas: 
+    "winmenu winmenu"
+    "sidebar main"
+    "sidebar footer";
+}
+
+/* APP WINDOW BAR */
+#winmenu {
+  grid-area: winmenu;
+}
+/* LEFT SIDEBAR */
+#sidebar {
+  grid-area: sidebar;
+}
+
+/* MAIN PANEL */
+#content {
+  grid-area: main;
+}
+
+/* FOOTER */
+footer {
+  grid-area: footer;
+}

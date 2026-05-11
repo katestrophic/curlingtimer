@@ -1,0 +1,14 @@
+@import "./palette.css";
+@import "./dimns.css";
+
+:root{
+  --colour-text: var(--GRY-DE);
+  --colour-bkgd: var(--GRY-1E);
+  --colour-hover: var(--GRY-30);
+
+  --colour-warn: var(--RED);
+
+  /* Default Team Colours */
+  --colour-T1: var(--RED);
+  --colour-T2: var(--YLW);
+}

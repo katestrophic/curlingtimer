@@ -1,0 +1,12 @@
+:root{
+  /* General Dimensions */
+  --perc-full: 100%;
+  --perc-half: 50%;
+  --perc-qurt: 25%;
+  --perc-none: 0%;
+
+
+  /* Specific Properties */
+  --winmenu-h: 30px;
+  --sidebar-w: 180px;
+}
